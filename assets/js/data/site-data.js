@@ -14,7 +14,7 @@ export const siteData = {
   hero: {
     name: 'Newton Kimathi',
     tagline: 'A fullstack Developer proficient in ',
-    typedItems: ['PHP', 'LARAVEL', 'tailwindcss', 'Vue.js', 'JavaScript', 'Flutter', 'MySQL'],
+    typedItems: ['PHP', 'LARAVEL', 'Tailwindcss', 'Vue.js', 'React.js', 'JavaScript', 'Flutter', 'MySQL'],
     fallbackText: 'Software Developer',
     imageSrc: 'assets/img/WhatsApp_Image_2024-12-14_at_11.47.51_AM-removebg-preview.png',
     imageAlt: 'Newton Kimathi portrait',

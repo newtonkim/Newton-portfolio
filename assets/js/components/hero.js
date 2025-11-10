@@ -16,7 +16,7 @@ export function buildHeroMarkup(data) {
         alt="${data.imageAlt}"
         class="custom-image"
         data-aos="fade-in"
-        style="width: 37.8%; height: 100%; position: absolute; left: 65%; object-fit: contain; scale: .85;"
+        style="width: 37.8%; height: 100%; position: absolute; left: 55%; object-fit: contain; scale: .85;"
       >
       <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <h2>${data.name}</h2>
