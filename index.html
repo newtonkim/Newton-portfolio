@@ -66,83 +66,15 @@
   
 </head>
 
-<body class="index-page">
+<body class="index-page" data-page="home">
 
-  <header id="header" class="header d-flex align-items-center fixed-top">
-    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
-
-      <a href="index.html" class="logo d-flex align-items-center">
-        <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">My Portfolio</h1>
-      </a>
-
-      <nav id="navmenu" class="navmenu">
-        <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="resume.html">Resume</a></li>
-          <li><a href="services.html">Services</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-      </nav>
-
-    </div>
-  </header>
+  <div data-component="header"></div>
 
   <main class="main">
-
-    <!-- Hero Section -->
-    <section id="hero" class="hero section dark-background">
-
-      <!-- <img src="assets/img/mybest.jpeg" alt="" data-aos="fade-in"> -->
-      <!-- <img src="assets/img/super.jpg" alt="" class="custom-image" data-aos="fade-in"> -->
-      <img style="width: 37.8%;height: 100%;position: absolute;left: 65%;object-fit: contain;scale: .85;"
-        src="assets/img/WhatsApp_Image_2024-12-14_at_11.47.51_AM-removebg-preview.png" alt="" class="custom-image"
-        data-aos="fade-in">
-
-      <div class="container" data-aos="zoom-out" data-aos-delay="100">
-        <h2>Newton Kimathi</h2>
-        <p>A fullstack Developer proficient in <span class="typed" data-typed-items="PHP, LARAVEL, tailwindcss, Vue.js, JavaScript, Flutter, MySQL">Software Developer</span><span class="typed-cursor typed-cursor--blink"></span></p>
-        <div class="social-links">
-          <a href=""><i class="bi bi-twitter-x"></i></a>
-          <a href=""><i class="bi bi-facebook"></i></a>
-          <a href=""><i class="bi bi-instagram"></i></a>
-          <a href=""><i class="bi bi-skype"></i></a>
-          <a href="https://www.linkedin.com/in/newton-nyamu-kimathi-96366892/"><i class="bi bi-linkedin"></i></a>
-         
-        </div>
-
-       
-      </div>
-
-    </section><!-- /Hero Section -->
-
+    <div data-component="hero"></div>
   </main>
 
-  <footer id="footer" class="footer dark-background">
-    <div class="container">
-      <h4 class="sitename">The Craft of Software: Code, Challenges, and Change</h4>
-      <p>"Great software is built not just by writing code, but by solving problems, embracing challenges, and constantly
-      learning. Every line you write is a step toward creating something that can change the world."</p>
-     
-      <div class="container">
-        <div class="copyright">
-          <span>Copyright © </span> <strong class="px-1 sitename">2024 Nyamu</strong> <span>All Rights Reserved</span>
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you've purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-          Designed by <a href="#">Newton Kimathi</a>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <div data-component="footer"></div>
 
   <!-- Scroll Top -->
   <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -163,7 +95,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
 
   <!-- Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script type="module" src="assets/js/main.js"></script>
 
 </body>
 
